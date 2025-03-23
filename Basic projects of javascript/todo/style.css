@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+form{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.inputclass{
+    height: 3rem;
+    width: 70%;
+  
+    
+}
+.btn{
+    
+    height: 3rem;
+    width: 28%;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    
+}
+
+li{
+    
+    list-style: none;
+    display: flex;
+    flex-direction:column;
+    padding-left: 15px;
+    width: 95%;
+    text-align: center;
+
+}
+
+.todo-btn{
+    width: 100px;
+}
