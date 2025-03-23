@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-link" id="navlinks">
+                <i class="ri-skip-right-line" onclick="hideMenu()" id="fa"></i>
+                
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="ri-menu-5-line" onclick="ShowMenu()" id="fa"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+ <!-- Courses -->
+ <section class="course">
+    <h1>Course We offer
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, eum!</p>
+   
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor,sit amet consectetur adipisicing elit. Accusantium facere commodi maiores officiis non modi, asperiores exercitationem cupiditate voluptate eligendi.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor,sit amet consectetur adipisicing elit. Accusantium facere commodi maiores officiis non modi, asperiores exercitationem cupiditate voluptate eligendi.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor,sit amet consectetur adipisicing elit. Accusantium facere commodi maiores officiis non modi, asperiores exercitationem cupiditate voluptate eligendi.</p>
+        </div>
+    
+    </div>
+
+ </section>
+<!-- facilities  -->
+ 
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sequi!</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png" alt="">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et ut esse deleniti facilis molestiae!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png" alt="">
+            <h3>World Largest Playground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et ut esse deleniti facilis molestiae!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="">
+            <h3>Tasty and Health Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque et ut esse deleniti facilis molestiae!</p>
+        </div>
+    </div>
+
+</section>
+
+<!---Footer---->
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.olestiae provident, optiobr <br> placeat similique ipsa qui modi.t </p>
+    <div class="icons">
+        <i class="fa ri-facebook-box-fill"></i>
+        <i class="fa ri-twitter-fill"></i>
+        <i class="fa ri-instagram-fill"></i>
+        <i class="fa ri-linkedin-box-fill"></i>
+    </div>
+    <p>Made with <i class="ri-landscape-fill"></i> Easy Tutorials</p>
+
+ </section>
+
+<!-- Javascript for toggle menu -->
+<script>
+    var navlinks = document.getElementById("navlinks")
+    function ShowMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navlinks.style.right="-200px"
+    }
+</script>    
+
+
+</body>
+</html>
