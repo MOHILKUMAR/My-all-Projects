@@ -30,6 +30,7 @@ Here are some notable projects from the repository:
 •	Basic Projects of JavaScript: Created multiple interactive applications in the Basic Projects of JavaScript to apply concepts like DOM manipulation and event handling. (BMI calculator, Data remaining calculator, Drop down nav-bar, from-validation, Todo)
 
 •	Clone Web Pages: Reproduced responsive clones of popular websites in the Clone Webpages project, improving frontend design and UI/UX skills. (E-commerce, University website, courses selling website)
+
 •	VGG 16 Image Detection of Rotten Fruits: Built the VGG 16 Image Detection of Rotten Fruits project using AI to detect and classify rotten fruits, applying deep learning and image processing techniques. (Python, TensorFlow, Keras, NumPy, OpenCV).
 
 
